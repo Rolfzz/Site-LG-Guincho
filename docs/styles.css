@@ -240,11 +240,13 @@ ul { list-style: none; }
   background: radial-gradient(ellipse at 0% 100%, rgba(255,204,0,.14) 0%, transparent 55%);
 }
 .hero-bar {
+  display: none;
   position: absolute;
   top: 0; left: 0; bottom: 0;
   width: 6px;
   background: var(--accent);
 }
+@media (min-width: 768px) { .hero-bar { display: block; } }
 .hero-content {
   position: relative;
   z-index: 1;
