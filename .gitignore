@@ -5,6 +5,9 @@ node_modules/
 .next/
 out/
 
+# docs/ é gerado pelo postbuild e commitado para GitHub Pages
+# não ignorar — deve ser rastreado pelo git
+
 # env files
 .env
 .env.local
