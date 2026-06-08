@@ -126,15 +126,13 @@ export const contato = {
 export const galeria = {
   label: 'GALERIA',
   h2: 'O Que Transportamos',
-  body: 'Atendemos carros, motos, SUVs, furgões, caminhões e muito mais — com segurança e cuidado em cada atendimento.',
+  tipos: ['Carro', 'Moto', 'SUV / Jeep', 'Picape', 'Furgão / Van', 'Mini Caminhão', 'Caminhão'],
   fotos: [
-    { src: '/guincho-carro.jpg',       alt: 'Guincho de carro de passeio — LG Guincho Ibaté',    label: 'Carro de Passeio' },
-    { src: '/guincho-carro-2.jpg',     alt: 'Reboque de carro — LG Guincho Ibaté',                label: 'Carro' },
-    { src: '/guincho-jeep.jpg',        alt: 'Guincho de SUV e Jeep — LG Guincho',                 label: 'SUV / Jeep' },
-    { src: '/guincho-moto.jpg',        alt: 'Transporte de motocicleta — LG Guincho Ibaté',       label: 'Motocicleta' },
-    { src: '/guincho-furgao.jpg',      alt: 'Guincho de furgão e van — LG Guincho',               label: 'Furgão / Van' },
-    { src: '/guincho-mini-caminhao.jpg', alt: 'Reboque de mini caminhão — LG Guincho',            label: 'Mini Caminhão' },
-    { src: '/guincho-caminhao.jpg',    alt: 'Guincho de caminhão pesado — LG Guincho Ibaté',      label: 'Caminhão' },
+    { src: '/sub1.jpeg', alt: 'Guincho de carro de passeio — LG Guincho Ibaté',    label: 'Carro de Passeio' },
+    { src: '/sub2.jpeg', alt: 'Transporte de motocicleta — LG Guincho Ibaté',       label: 'Motocicleta' },
+    { src: '/sub3.jpeg', alt: 'Guincho de SUV e Jeep — LG Guincho',                 label: 'SUV / Jeep' },
+    { src: '/sub4.jpeg', alt: 'Guincho de furgão e van — LG Guincho',               label: 'Furgão / Van' },
+    { src: '/sub5.jpeg', alt: 'Guincho de caminhão pesado — LG Guincho Ibaté',      label: 'Caminhão' },
   ],
 }
 
