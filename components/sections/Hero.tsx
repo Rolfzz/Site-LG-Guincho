@@ -10,7 +10,7 @@ export function Hero() {
     >
       {/* Foto de fundo */}
       <div
-        className="absolute inset-0 bg-cover bg-[center_40%]"
+        className="absolute inset-0 bg-cover bg-[center_60%] md:bg-[center_40%]"
         style={{ backgroundImage: "url('/foto%20hero.png')" }}
         aria-hidden="true"
       />
