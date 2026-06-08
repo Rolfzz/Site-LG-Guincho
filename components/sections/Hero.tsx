@@ -45,8 +45,6 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      {/* Barra amarela esquerda — só desktop */}
-      <div className="absolute bottom-0 left-0 top-0 w-1.5 bg-accent hidden md:block" aria-hidden="true" />
 
       <Container className="relative z-10 py-10 md:py-24">
         <p className="mb-4 font-condensed text-h4 font-bold uppercase tracking-[0.18em] text-accent text-shadow-sm">
