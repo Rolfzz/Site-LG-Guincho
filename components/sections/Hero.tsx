@@ -11,7 +11,7 @@ export function Hero() {
       {/* Foto de fundo */}
       <div
         className="absolute inset-0 bg-cover bg-[center_40%]"
-        style={{ backgroundImage: "url('/guincho-caminhao.jpg')" }}
+        style={{ backgroundImage: "url('/foto%20hero.png')" }}
         aria-hidden="true"
       />
 
@@ -20,7 +20,7 @@ export function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            'linear-gradient(to right, rgba(13,13,13,0.97) 0%, rgba(13,13,13,0.90) 35%, rgba(13,13,13,0.60) 60%, rgba(13,13,13,0.25) 100%)',
+            'linear-gradient(to right, rgba(13,13,13,0.98) 0%, rgba(13,13,13,0.94) 35%, rgba(13,13,13,0.78) 60%, rgba(13,13,13,0.50) 100%)',
         }}
         aria-hidden="true"
       />
