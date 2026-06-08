@@ -5,12 +5,12 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative flex min-h-[560px] items-center bg-canvas md:min-h-[640px]"
+      className="relative flex min-h-[440px] items-center bg-canvas md:min-h-[640px]"
       aria-label="Seção principal"
     >
       {/* Foto de fundo */}
       <div
-        className="absolute inset-0 bg-cover bg-[90%_30%] md:bg-[center_40%]"
+        className="absolute inset-0 bg-cover bg-[75%_30%] md:bg-[center_40%]"
         style={{ backgroundImage: "url('/foto%20hero.png')" }}
         aria-hidden="true"
       />
