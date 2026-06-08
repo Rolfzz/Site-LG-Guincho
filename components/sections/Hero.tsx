@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative flex min-h-[420px] items-center bg-canvas md:min-h-[640px]"
+      className="relative flex min-h-[300px] items-center bg-canvas md:min-h-[640px]"
       aria-label="Seção principal"
     >
       {/* Foto de fundo */}
@@ -38,7 +38,7 @@ export function Hero() {
       {/* Barra amarela esquerda */}
       <div className="absolute bottom-0 left-0 top-0 w-1.5 bg-accent" aria-hidden="true" />
 
-      <Container className="relative z-10 py-14 md:py-24">
+      <Container className="relative z-10 py-10 md:py-24">
         <p className="mb-4 font-condensed text-h4 font-bold uppercase tracking-[0.18em] text-accent text-shadow-sm">
           {hero.label}
         </p>
