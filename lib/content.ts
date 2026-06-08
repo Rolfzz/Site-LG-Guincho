@@ -5,10 +5,10 @@ export const brand = {
   tagline: 'Guincho 24h em Ibaté e Região',
   slogan: 'Sempre ao seu lado, com soluções rápidas e confiáveis para qualquer emergência veicular.',
   location: 'Ibaté - SP e Região',
-  whatsapp: '(16) 997707518',
-  whatsappHref: 'https://wa.me/5516997707518',
-  phone: '(16) 997707518',
-  phoneHref: 'tel:+5516997707518',
+  whatsapp: '(16) 99306-1697',
+  whatsappHref: 'https://wa.me/5516993061697',
+  phone: '(16) 99306-1697',
+  phoneHref: 'tel:+5516993061697',
   atendimento: '24 horas por dia, inclusive finais de semana e feriados',
 }
 
