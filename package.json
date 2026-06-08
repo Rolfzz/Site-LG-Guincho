@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node scripts/postbuild.mjs",
     "preview": "npx serve@latest out -p 3000",
     "start": "next start",
     "lint": "next lint"
