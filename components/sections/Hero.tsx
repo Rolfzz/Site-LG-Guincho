@@ -5,19 +5,29 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative flex min-h-[300px] items-center bg-canvas md:min-h-[640px]"
+      className="relative flex min-h-[560px] items-center bg-canvas md:min-h-[640px]"
       aria-label="Seção principal"
     >
       {/* Foto de fundo */}
       <div
-        className="absolute inset-0 bg-no-repeat bg-[length:100%_auto] bg-[center_top] md:bg-cover md:bg-[center_40%]"
+        className="absolute inset-0 bg-cover bg-[55%_30%] md:bg-[center_40%]"
         style={{ backgroundImage: "url('/foto%20hero.png')" }}
         aria-hidden="true"
       />
 
-      {/* Overlay direcional: escuro à esquerda, abre à direita */}
+      {/* Overlay mobile: foto visível no topo, dissolve em preto embaixo */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 md:hidden"
+        style={{
+          background:
+            'linear-gradient(to bottom, rgba(13,13,13,0.25) 0%, rgba(13,13,13,0.55) 45%, rgba(13,13,13,0.92) 70%, rgba(13,13,13,1.00) 100%)',
+        }}
+        aria-hidden="true"
+      />
+
+      {/* Overlay desktop: escuro à esquerda, abre à direita */}
+      <div
+        className="absolute inset-0 hidden md:block"
         style={{
           background:
             'linear-gradient(to right, rgba(13,13,13,0.98) 0%, rgba(13,13,13,0.94) 35%, rgba(13,13,13,0.78) 60%, rgba(13,13,13,0.50) 100%)',
